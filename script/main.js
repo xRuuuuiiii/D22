@@ -315,13 +315,13 @@ window.addEventListener('DOMContentLoaded', (event) => {
  
   // Create an audio element and set its src attribute to the MP3 file
   const audio = document.createElement('audio');
-  audio.src = 'Supershy.mp3';
+  audio.src = 'SuperShy.mp3';
   audio.preload = 'none';
 
   // Add a delay before playing the MP3
   window.setTimeout(() => {
        // Play the audio
        audio.play();
-  }, 8000); // 8000 milliseconds = 5 seconds delay
+  }, 10000); // 10000 milliseconds 
  });
  
