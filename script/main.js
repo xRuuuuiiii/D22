@@ -308,19 +308,20 @@ fetchData();
 
 
 
+
 window.addEventListener('DOMContentLoaded', (event) => {
   // Get the element with the id "music-div"
-  const musicDiv = document.getElementById('music-div');
+  const musicDiv = document.getElementById('.music-div');
  
   // Create an audio element and set its src attribute to the MP3 file
   const audio = document.createElement('audio');
-  audio.src = 'SuperShy.mp3';
+  audio.src = 'Supershy.mp3';
   audio.preload = 'none';
 
   // Add a delay before playing the MP3
   window.setTimeout(() => {
        // Play the audio
        audio.play();
-  }, 5000); // 5000 milliseconds = 5 seconds delay
+  }, 8000); // 8000 milliseconds = 5 seconds delay
  });
  
